@@ -1,0 +1,25 @@
+{
+  "name": "project_management_system",
+  "version": "1.0.0",
+  "description": "A platform for managing freelance projects efficiently.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"No tests defined yet.\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Soham Virani",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.7",
+    "csv-parser": "^3.0.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "express-async-handler": "^1.2.0",
+    "json2csv": "^6.0.0-alpha.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.7.1",
+    "multer": "^1.4.5-lts.1"
+  }
+}
